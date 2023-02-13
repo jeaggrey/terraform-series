@@ -39,11 +39,11 @@ $ cd Terraform_Scripts
 #### Create Infrastructure(VPC,Subnets,Route Tables,EC2 Instnaces ..etc) As A Code Using Terraform Scripts
 ``` sh
 # Initialise to install plugins
-$ terraform init VPC/
+$ terraform init VPC
 # Validate teffaform scripts
-$ terraform validate VPC/
+$ terraform validate VPC
 # Plan terraform scripts which will list resources which is going  be created.
-$ terraform plan VPC/
+$ terraform plan VPC
 # Apply to create resources
 $ terraform apply --auto-approve VPC/
 ```
